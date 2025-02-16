@@ -1,0 +1,5 @@
+beam_paths:
+  0: !AnalyticBeam
+    class: pyuvdata.ShortDipoleBeam
+telescope_location: (79.417183, -90.767350, 189)
+telescope_name: ALBATROS

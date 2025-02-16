@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv-*/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+logs/
+
+# Environment variables / credentials
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Pip dependency cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+*.cover
+htmlcov/
+cov.xml
+
+# Jupyter Notebook output (optional, if storing cleaned notebooks)
+*.nbconvert.ipynb
+
+data/beams/
+data/plots/
+data/srclists/
+data/uvfits/
+
+
+.python-version

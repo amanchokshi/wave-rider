@@ -1,0 +1,17 @@
+filing:
+  outdir: '../data/uvfits/'
+  outfile_name: 'albatros_sim_ateam_14MHz_24h'
+  output_format: 'uvfits'
+freq:
+  Nfreqs: 1
+  channel_width: 100000.0
+  start_freq: 14000000.0
+time:
+  Ntimes: 6143
+  integration_time: 14.02638621194856
+  start_time: 2460676.5000811713 # (Time("2025-01-01 00:00:00", scale="utc") + TimeDelta(d_sidereal/2, format="sec")).jd
+telescope:
+  array_layout: '../data/layouts/albatros.csv'
+  telescope_config_name: './albatros_beam_lwa.yaml'
+sources:
+  catalog: '../data/maps/Gasperin2020_sources_14MHz.skyh5'

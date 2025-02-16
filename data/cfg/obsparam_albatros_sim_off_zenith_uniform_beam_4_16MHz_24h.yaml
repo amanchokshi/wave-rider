@@ -1,0 +1,17 @@
+filing:
+  outdir: '../data/uvfits/'
+  outfile_name: 'albatros_sim_off_zenith_uniform_beam_4_16MHz_24h'
+  output_format: 'uvfits'
+freq:
+  Nfreqs: 121
+  channel_width: 100000.0
+  start_freq: 4000000.0
+time:
+  Ntimes: 1440
+  integration_time: 60
+  start_time: 2460676.5 # Time("2025-01-01 00:00:00", scale="utc").jd
+telescope:
+  array_layout: '../data/layouts/albatros.csv'
+  telescope_config_name: './albatros_uniform_beam.yaml'
+sources:
+  catalog: '../data/srclists/off_zenith.txt'
